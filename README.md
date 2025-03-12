@@ -11,6 +11,7 @@ The Multi-Agent-Medical-AI-Assistant Assistant is a powerful tool designed to pr
 - **Drug Interaction Checker**: Check for interactions between drugs.
 - **Conversational Memory**: Maintain conversation history to provide context-aware responses.
 - **Real-time Logging**: Monitor responses and response times for better performance tracking.
+- **LLM**: ```mixtral-8x7b-32768```
 
 ## Installation
 
@@ -39,7 +40,7 @@ The Multi-Agent-Medical-AI-Assistant Assistant is a powerful tool designed to pr
    ```
 
 4. **Set up environment variables**:
-   Create a `.env` file in the project root and add your Groq API key For LLM (mixtral-8x7b-32768):
+   Create a `.env` file in the project root and add your Groq API key:
    ```
    GROQ_API_KEY=your_groq_api_key_here
    ```
