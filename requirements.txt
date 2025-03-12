@@ -1,6 +1,6 @@
-streamlit
-langchain
-langchain_community
-faiss-cpu
-python-dotenv
-duckduckgo-search
+streamlit==1.43.1
+langchain==0.3.20
+langchain_community==0.3.19
+faiss-cpu==1.10.0
+python-dotenv==1.0.1
+duckduckgo-search==7.5.1
