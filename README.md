@@ -39,7 +39,7 @@ The Multi-Agent-Medical-AI-Assistant Assistant is a powerful tool designed to pr
    ```
 
 4. **Set up environment variables**:
-   Create a `.env` file in the project root and add your Groq API key:
+   Create a `.env` file in the project root and add your Groq API key For LLM (mixtral-8x7b-32768):
    ```
    GROQ_API_KEY=your_groq_api_key_here
    ```
