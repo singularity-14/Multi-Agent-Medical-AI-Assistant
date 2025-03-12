@@ -25,7 +25,7 @@ load_dotenv()
 # Load Groq API Key
 groq_api_key = os.getenv("GROQ_API_KEY")
 
-# Initialize LLM with Groq
+# Initialize LLM with Groq (LLM: mixtral-8x7b-32768)
 llm = ChatGroq(groq_api_key=groq_api_key, temperature=0.3)
 
 # Initialize Search Tool
